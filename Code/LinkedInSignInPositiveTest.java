@@ -56,13 +56,13 @@ public class LinkedInSignInPositiveTest {
        // Clear the textbox before input
        login_email.clear();
        // Send the username to the text box
-       login_email.sendKeys("YOU SHOULD TYPE YOUR USERNAME HERE");
+       login_email.sendKeys(Constants.username);
        // 4. Find the login password text box
        WebElement login_password = driver.findElement(By.id("login-password"));
        // Clear the textbox before input
        login_password.clear();
        // Send the password to the text box
-       login_password.sendKeys("YOU SHOULD TYPE YOUR PASSWORD HERE");
+       login_password.sendKeys(Constants.password);
        // 5. Find the sign in button and click
        WebElement signIn = driver.findElement(By.xpath("//input[@value='Sign in']"));
        signIn.click();
@@ -115,13 +115,13 @@ public class LinkedInSignInPositiveTest {
        // Clear the textbox before input
        login_password.clear();
        // Send the password to the text box
-       login_password.sendKeys("YOU SHOULD TYPE YOUR PASSWORD HERE");
+       login_password.sendKeys(Constants.password);
        // 4. Find the login email text box
        WebElement login_email = driver.findElement(By.id("login-email"));
        // Clear the textbox before input
        login_email.clear();
        // Send the username to the text box
-       login_email.sendKeys("YOU SHOULD TYPE YOUR USERNAME HERE");
+       login_email.sendKeys(Constants.username);
        // 5. Find the sign in button and click
        WebElement signIn = driver.findElement(By.xpath("//input[@value='Sign in']"));
        signIn.click();
