@@ -25,18 +25,29 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LinkedInSignInPositiveTest {
+	
+   public WebDriver driver;
+   public String response;
+   public WebDriverWait wait;
+
+   // WebDriver Initialization
+   public LinkedInSignInPositiveTest(){
+       driver = new FirefoxDriver();
+       response = "";
+       wait = new WebDriverWait(driver, 1);
+   }
 
    @Test
    // Positive path 1 (the most common path)
    // path covered (1) (2) (3) (5) (7) (10) (15) (17) (18) (19) (21) (22)
    public void linkedInSingInPositiveTestOne (){
        // 1. Go to the LinkedIn website
-	   WebDriver driver = new FirefoxDriver();
+	   driver = new FirefoxDriver();
        driver.get("https://www.linkedin.com");
        // 2. Verify Sign In Page is displayed
        // Validate the text "Be great at what you do" is in the HTML
        // for that we get first all the response
-       String response = driver.getPageSource();
+       response = driver.getPageSource();
        // Once it fails, return java.lang.AssertionError
        assertTrue("VALIDATION FAILED - Text \'Be great at what you do\' - NOT FOUND",
                response.contains("Be great at what you do"));
@@ -61,7 +72,7 @@ public class LinkedInSignInPositiveTest {
                response.contains("Tip: You can also search by keyword, company, school..."));
        // 7. Wait until the element needed appears
        // Wait for 10 seconds to load the page
-       WebDriverWait wait = new WebDriverWait(driver,10);
+       wait = new WebDriverWait(driver,10);
        // Until the Account & Settings button is shown
        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".account-toggle.nav-link")));
        // 8. Click On the Account & Settings button(image at the right top)
@@ -90,12 +101,12 @@ public class LinkedInSignInPositiveTest {
    // path covered (1) (2) (3) (6) (8) (9) (15) (17) (18) (19) (21) (22)
    public void linkedInSingInPositiveTestTwo (){
        // 1. Go to the LinkedIn website
-	   WebDriver driver = new FirefoxDriver();
+	   driver = new FirefoxDriver();
        driver.get("https://www.linkedin.com");
        // 2. Verify Sign In Page is displayed
        // Validate the text "Be great at what you do" is in the HTML
        // for that we get first all the response
-       String response = driver.getPageSource();
+       response = driver.getPageSource();
        // Once it fails, return java.lang.AssertionError
        assertTrue("VALIDATION FAILED - Text \'Be great at what you do\' - NOT FOUND",
                response.contains("Be great at what you do"));
@@ -120,7 +131,7 @@ public class LinkedInSignInPositiveTest {
                response.contains("Tip: You can also search by keyword, company, school..."));
        // 7. Wait until the element needed appears
        // Wait for 10 seconds to load the page
-       WebDriverWait wait = new WebDriverWait(driver,10);
+       wait = new WebDriverWait(driver,10);
        // Until the Account & Settings button is shown
        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".account-toggle.nav-link")));
        // 8. Click On the Account & Settings button(image at the right top)
@@ -143,5 +154,9 @@ public class LinkedInSignInPositiveTest {
                response.contains("You have signed out"));
 
    }
-
+   
+   @After
+   public void tearDown(){
+       driver.close();
+   }
 }
