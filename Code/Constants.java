@@ -2,7 +2,7 @@
 * Created by Bo Man on 1/29/16.
 */
 
-package backFolder;
+package com.LinkedIn.linkedin_webui_test;
 
 public class Constants {
 	
