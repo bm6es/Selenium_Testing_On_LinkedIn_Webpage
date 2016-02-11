@@ -15,41 +15,38 @@
 # /** ----------------- Framework Design ------------------- */
 # (4) Test Framework Design
 # (5) Test Framework Explanation
-# /** --------------- Test Flow Graph Design --------------- */
-# (6) Test Scenario 1: Sign In and Sign out for LinkedIn
-# (7) Test Scenario 2: Regularly Search for certain people or company
-# (8) Test Scenario 3: Advanced Search for certain people or company
-# (9) Test Scenario 4: Send and Receive request from others
-# (10) Test Scenario 5: Delete friends from existing list
-# (11) Test Scenario 6: Share an update
-# (12) Test Scenario 7: Upload a photo
-# (13) Test Scenario 8: Publish a post
-# (14) Test Scenario 9: Improve your profile
-# (15) Manually Walking Through the Test Cases (Scenarios)
-# /** ------------ Tools and Enviroment Settings ----------- */
-# (16) Tools used to build the application Under Test
-# (17) Installing Selenium with Eclipse.
-# (18) Installing Selenium with Intellij.
-# (19) Installing Selenium with Intellij.
-# /** ------------ Coding and Testing Documents ------------ */
-# (20) Creating positive functional automation test on Test Scenario 1.
-# (21) Creating negative functional automation test on Test Scenario 1.
-# (22) Creating positive functional automation test on Test Scenario 2.
-# (23) Creating negative functional automation test on Test Scenario 2.
-# (24) Creating positive functional automation test on Test Scenario 3.
-# (25) Creating negative functional automation test on Test Scenario 3.
-# (26) Creating positive functional automation test on Test Scenario 4.
-# (27) Creating negative functional automation test on Test Scenario 4.
-# (28) Creating positive functional automation test on Test Scenario 5.
-# (29) Creating negative functional automation test on Test Scenario 5.
-# (30) Creating positive functional automation test on Test Scenario 6.
-# (31) Creating negative functional automation test on Test Scenario 6.
-# (32) Creating positive functional automation test on Test Scenario 7.
-# (33) Creating negative functional automation test on Test Scenario 7.
-# (34) Creating positive functional automation test on Test Scenario 8.
-# (35) Creating negative functional automation test on Test Scenario 8.
-# (36) Creating positive functional automation test on Test Scenario 9.
-# (37) Creating negative functional automation test on Test Scenario 9.
+# /** --------------- Test UI Flow Graph and Test Cases Generation --------------- */
+# (6) Test Scenario 1 (Successfully Sign In and Sign Out) UI Flow Graph
+# (7) Test Scenario 1 (Successfully Sign In and Sign Out) Control Flow Graph
+# (8) Test Scenario 1 (Successfully Sign In and Sign Out) Test Cases Generation
+# (9) Test Scenario 2 (Unsuccessfully Sign In) UI Flow Graph
+# (10) Test Scenario 2 (Unsuccessfully Sign In) Control Flow Graph
+# (11) Test Scenario 2 (Unsuccessfully Sign In) Test Cases Branches
+# (12) Test Scenario 2 (Unsuccessfully Sign In) Test Cases Generation
+
+# (13) Test Scenario 3 (Regularly Search) UI Flow Graph
+# (14) Test Scenario 3 (Regularly Search) Test Cases Generation
+
+# (15) Test Scenario 4 (Advanced Search) UI Flow Graph
+# (16) Test Scenario 4 (Advanced Search) Test Cases Generation
+
+# (17) Test Scenario 5 (Send request to others) UI Flow Graph
+# (18) Test Scenario 5 (Send request to others) Test Cases Generation
+
+# (19) Test Scenario 6 (Improve your profile) UI Flow Graph
+# (20) Test Scenario 6 (Improve your profile) Test Cases Generation
+
+# /** ------------ Tools and Environment Settings ----------- */
+# (21) Symbol Instructions for Control Flow Graph
+# (22) Tools used to build the application Under Test
+# (23) Installing Selenium with Eclipse.
+# (24) Installing Selenium with Intellij.
+
+# /** ------------ Coding ------------ */
+# (25) Constants
+# (26) LinkedInStaticMethod (Encapsulation)
+# (27) Test 1 — LinkedInSignInPositiveTest (2 test cases)
+# (28) Test 2 — LinkedInSignInNegativeTest (10 test cases)
 
 
 
