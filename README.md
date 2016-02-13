@@ -24,11 +24,17 @@ Documents are listed as follows:
 /** --------------- Test UI Flow Graph and Test Cases Generation --------------- */
 
 (6) Test Scenario 1 (Successfully Sign In and Sign Out) UI Flow Graph
+
 (7) Test Scenario 1 (Successfully Sign In and Sign Out) Control Flow Graph
+
 (8) Test Scenario 1 (Successfully Sign In and Sign Out) Test Cases Generation
+
 (9) Test Scenario 2 (Unsuccessfully Sign In) UI Flow Graph
+
 (10) Test Scenario 2 (Unsuccessfully Sign In) Control Flow Graph
+
 (11) Test Scenario 2 (Unsuccessfully Sign In) Test Cases Branches
+
 (12) Test Scenario 2 (Unsuccessfully Sign In) Test Cases Generation
 
 (13) Test Scenario 3 (Regularly Search) UI Flow Graph
