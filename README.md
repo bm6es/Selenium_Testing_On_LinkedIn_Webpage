@@ -1,3 +1,4 @@
+/*
 # Selenium_Testing_On_LinkedIn_Webpage Project
 
 # This project is based on Junit test and Selenium.
@@ -47,7 +48,7 @@
 # (26) LinkedInStaticMethod (Encapsulation)
 # (27) Test 1 — LinkedInSignInPositiveTest (2 test cases)
 # (28) Test 2 — LinkedInSignInNegativeTest (10 test cases)
-
+*/
 
 
 
