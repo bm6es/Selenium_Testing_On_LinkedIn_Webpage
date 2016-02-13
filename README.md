@@ -1,9 +1,13 @@
 Selenium_Testing_On_LinkedIn_Webpage Project
 
 This project is based on Junit test and Selenium.
+
 The environment is in Intellij and Eclipse under Mac.
+
 The goal is to complete automation testing on several LinkedIn webpage functions.
+
 The project is finished by Bo Man individually.
+
 Acknowledgement to Bozena Camacho who helps a lot with directions.
 
 Documents are listed as follows:
@@ -13,7 +17,9 @@ Documents are listed as follows:
 /** ---- Requirement and generate requirement analysis --- */
 
 (1) Goals of the project
+
 (2) Project Requirement
+
 (3) Requirement Analysis
 
 /** ----------------- Framework Design ------------------- */
@@ -38,29 +44,39 @@ Documents are listed as follows:
 (12) Test Scenario 2 (Unsuccessfully Sign In) Test Cases Generation
 
 (13) Test Scenario 3 (Regularly Search) UI Flow Graph
+
 (14) Test Scenario 3 (Regularly Search) Test Cases Generation
 
 (15) Test Scenario 4 (Advanced Search) UI Flow Graph
+
 (16) Test Scenario 4 (Advanced Search) Test Cases Generation
 
 (17) Test Scenario 5 (Send request to others) UI Flow Graph
+
 (18) Test Scenario 5 (Send request to others) Test Cases Generation
 
 (19) Test Scenario 6 (Improve your profile) UI Flow Graph
+
 (20) Test Scenario 6 (Improve your profile) Test Cases Generation
 
 /** ------------ Tools and Environment Settings ----------- */
 
 (21) Symbol Instructions for Control Flow Graph
+
 (22) Tools used to build the application Under Test
+
 (23) Installing Selenium with Eclipse.
+
 (24) Installing Selenium with Intellij.
 
 /** ------------ Coding ------------ */
 
 (25) Constants
+
 (26) LinkedInStaticMethod (Encapsulation)
+
 (27) Test 1 — LinkedInSignInPositiveTest (2 test cases)
+
 (28) Test 2 — LinkedInSignInNegativeTest (10 test cases)
 
 
