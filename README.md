@@ -1,9 +1,8 @@
-/*
-# Selenium_Testing_On_LinkedIn_Webpage Project
+Selenium_Testing_On_LinkedIn_Webpage Project
 
-# This project is based on Junit test and Selenium.
-# The environment is in Intellij and Eclipse under Mac.
-# The goal is to complete automation testing on several LinkedIn webpage functions.
+This project is based on Junit test and Selenium.
+The environment is in Intellij and Eclipse under Mac.
+The goal is to complete automation testing on several LinkedIn webpage functions.
 # The project is finished by Bo Man individually.
 # Acknowledgement to Bozena Camacho who helps a lot with directions.
 
